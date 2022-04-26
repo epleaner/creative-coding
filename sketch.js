@@ -2,7 +2,7 @@ let a;
 let fontSize;
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
-  a = createA('/hello', 'check me out');
+  a = createA('hello/', 'check me out');
   a.position(width / 2, height / 2);
   a.style('font-size', (mouseX+mouseY)/2+'px');
   a.style('color', 'papayawhip');
